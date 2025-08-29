@@ -4,10 +4,10 @@ from typing import List, Any
 
 app = FastAPI()
 
-FULL_NAME = "john_doe"
-DOB = "17091999"
-EMAIL = "john@xyz.com"
-ROLL_NUMBER = "ABCD123"
+FULL_NAME = "Tamanna Bishnoi"
+DOB = "07082004"
+EMAIL = "tamannabishnoi81@gmail.com"
+ROLL_NUMBER = "22BCE0919"
 
 class InputData(BaseModel):
     data: List[Any]
